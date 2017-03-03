@@ -20,16 +20,17 @@ body {
 @media only screen and (min-width: 200px) {
     body {
         background-image: url('../img/white-brick.jpeg');
-        font-size: 150%;
+        font-size: 100%;
     }
 }
 
 @media only screen and (min-width: 800px) {
     body {
         background-image: url('../img/white-brick.jpeg');
-        font-size: 140%;
+        font-size: 120%;
     }
 }
+
 
 /* body with white bricks end */
 
@@ -37,18 +38,50 @@ body {
 /*header */
 
 /*logo media query */
-header img {
-    padding-top: 50px;
-    padding-bottom: 50px;
+header {
+    background-image: url('../img/header1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    box-sizing: border-box;
+    text-align: center;
+
 }
 
 
-header {
-    text-align: center;
-    background-image: url('../img/header1.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+@media only screen and (min-width: 200px) {
+    header {
+        background-image: url('../img/header1.jpg');
+        font-size: 150%;
+    }
+
+    #logo {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    header {
+        background-image: url('../img/header1.jpg');
+        font-size: 140%;
+    }
+
+    #logo {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../img/header1.jpg');
+        font-size: 140%;
+    }
+
+    #logo {
+        max-width: 350px;
+    }
 }
 
 
@@ -119,7 +152,13 @@ main p {
     #colors p {
         font-size: 70%;
     }
+}
 
+@media only screen and (min-width: 800px) {
+    #colors p {
+        font-size: 100%;
+    }
+}
 
 
 #square3 p {
@@ -207,7 +246,7 @@ main p {
 }
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     #square1 {
         width: 7em;
         height: 7em;
@@ -234,7 +273,7 @@ main p {
     }
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
     #square1 {
         width: 9em;
         height: 9em;
@@ -260,6 +299,9 @@ main p {
         height: 9em;
     }
 }
+
+
+
 
 
 
@@ -271,6 +313,18 @@ main p {
     text-align: center;
 }
 
+@media only screen and (min-width: 200px) {
+    #button1 a {
+        font-size: 80%;
+    }
+
+    #button2 a {
+        font-size: 80%;
+    }
+
+}
+
+
 #button1 {
     display: inline-block;
     padding: 1em;
@@ -279,6 +333,7 @@ main p {
     margin: 20px;
 
 }
+
 
 #button1 a {
     color: #e5e1d2;
@@ -338,6 +393,18 @@ main p {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+}
+
+
+@media only screen and (min-width: 200px) {
+    #button1 {
+        font-size: 80%;
+    }
+
+    #button2 {
+        font-size: 80%;
+    }
+
 }
 
 /* Underline From Center - button 2 */
