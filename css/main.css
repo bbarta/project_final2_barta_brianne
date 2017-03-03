@@ -6,6 +6,7 @@ html {
     box-sizing: inherit;
 }
 
+/* body with white bricks */
 body {
     background-image: url('../img/white-brick.jpeg');
     background-position: center center;
@@ -16,68 +17,40 @@ body {
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 800px) {
-    body {
-        background-image: url('../img/white-brick.jpeg');
-        font-size: 100%;
-    }
-}
-
 @media only screen and (min-width: 200px) {
     body {
         background-image: url('../img/white-brick.jpeg');
-        font-size: 80%;
+        font-size: 150%;
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 800px) {
     body {
         background-image: url('../img/white-brick.jpeg');
-        font-size: 120%;
+        font-size: 140%;
     }
 }
 
-@media only screen and (max-width: 1100px) {
-    #logo {
-        max-width: 250px;
-    }
-}
+/* body with white bricks end */
 
-#logo {
+
+/*header */
+
+/*logo media query */
+header img {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 
-
-
 header {
     text-align: center;
     background-image: url('../img/header1.jpg');
-    background-size: contain;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-@media only screen and (max-width: 1100px) {
-    #header {
-        text-align: center;
-        background-image: url('../img/header1.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-
-    }
-}
-
-#header {
-    text-align: center;
-    background-image: url('../img/header1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-}
 
 header h4 {
     color: red;
@@ -134,23 +107,29 @@ main p {
 }
 
 
-@media only screen and (max-width: 1100px) {
-    #header {
-        text-align: center;
-        background-image: url('../bg-slate.jpeg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding-top: 50px;
-        padding-bottom: 50px;
+#colors h1 {
+    color: white;
+}
 
+#colors p {
+    color: white;
+}
+
+@media only screen and (min-width: 200px) {
+    #colors p {
+        font-size: 70%;
     }
+
+
+
+#square3 p {
+    color: black;
 }
 
 #square1 {
     width: 8em;
     height: 8em;
-    background: #c30005;
+    background: #890407;
     display: inline-block;
     border: 5px solid white;
     margin: 20px;
@@ -200,7 +179,62 @@ main p {
 
 
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 200px) {
+    #square1 {
+        width: 4em;
+        height: 4em;
+    }
+
+    #square2 {
+        width: 4em;
+        height: 4em;
+    }
+
+    #square3 {
+        width: 4em;
+        height: 4em;
+    }
+
+    #square4 {
+        width: 4em;
+        height: 4em;
+    }
+
+    #square5 {
+        width: 4em;
+        height: 4em;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    #square1 {
+        width: 7em;
+        height: 7em;
+    }
+
+    #square2 {
+        width: 7em;
+        height: 7em;
+    }
+
+    #square3 {
+        width: 7em;
+        height: 7em;
+    }
+
+    #square4 {
+        width: 7em;
+        height: 7em;
+    }
+
+    #square5 {
+        width: 7em;
+        height: 7em;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
     #square1 {
         width: 9em;
         height: 9em;
@@ -227,25 +261,26 @@ main p {
     }
 }
 
+
+
 #buttons {
     margin: 0 auto;
     width: 50%;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
 }
 
 #button1 {
     display: inline-block;
     padding: 1em;
-    background-color: #c30005;
+    background-color: #890407;
     text-decoration: none;
-    margin: 0 auto;
+    margin: 20px;
 
 }
 
 #button1 a {
-    font-family: cursive;
     color: #e5e1d2;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -293,6 +328,7 @@ main p {
     padding: 1em;
     background-color: #22860e;
     text-decoration: none;
+    margin: 20px;
 
 }
 
@@ -337,4 +373,27 @@ main p {
 .hvr-underline-frm-center:active::before {
     left: 0;
     right: 0;
+}
+
+
+footer {
+    text-align: center;
+    background-image: url('../img/coffee.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+@media only screen and (min-width: 1100px) {
+    footer {
+        text-align: center;
+        background-image: url('../img/coffee.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
 }
