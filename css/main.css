@@ -32,56 +32,41 @@ body {
 }
 
 
-/* body with white bricks end */
 
 
 /*header */
-
-/*logo media query */
 header {
-    background-image: url('../img/header1.jpg');
-    background-position: center center;
+    background: url('../img/header1.jpg');
+    display: block;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    width: 100%;
     background-color: #464646;
     box-sizing: border-box;
     text-align: center;
+    height: auto;
 
 }
 
 
 @media only screen and (min-width: 200px) {
-    header {
-        background-image: url('../img/header1.jpg');
-        font-size: 150%;
-    }
-
     #logo {
         max-width: 150px;
     }
 }
 
 @media only screen and (min-width: 800px) {
-    header {
-        background-image: url('../img/header1.jpg');
-        font-size: 140%;
-    }
-
     #logo {
         max-width: 250px;
     }
+
 }
 
-@media only screen and (min-width: 1024px) {
-    header {
-        background-image: url('../img/header1.jpg');
-        font-size: 140%;
-    }
-
+@media only screen and (min-width: 1600px) {
     #logo {
         max-width: 350px;
     }
+
 }
 
 
@@ -128,13 +113,14 @@ main p {
 }
 
 #colors {
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    background-image: url('../img/bg-slate.jpeg');
-    background-size: cover;
+    background: url('../img/bg-slate.jpeg');
+    display: block;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-color: #464646;
+    box-sizing: border-box;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -158,6 +144,7 @@ main p {
     #colors p {
         font-size: 100%;
     }
+
 }
 
 
@@ -216,8 +203,6 @@ main p {
 
 }
 
-
-
 @media only screen and (min-width: 200px) {
     #square1 {
         width: 4em;
@@ -299,9 +284,6 @@ main p {
         height: 9em;
     }
 }
-
-
-
 
 
 
@@ -444,17 +426,42 @@ main p {
 
 
 footer {
-    text-align: center;
-    background-image: url('../img/coffee.jpeg');
-    background-size: cover;
+    background: url('../img/coffee.jpeg');
+    display: block;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-size: cover;
+    width: 100%;
+    background-color: #464646;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 200px) {
+    footer {
+        text-align: center;
+        background-image: url('../img/coffee.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    footer {
+        text-align: center;
+        background-image: url('../img/coffee.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+}
+
+@media only screen and (min-width: 1600px) {
     footer {
         text-align: center;
         background-image: url('../img/coffee.jpeg');
