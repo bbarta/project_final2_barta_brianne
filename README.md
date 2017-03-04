@@ -5,7 +5,7 @@
 
 [W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.briannebarta.com%2Fproject_final2_barta_brianne%2Findex.html)
 
-[HTML5 Outline](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.briannebarta.com%2Fproject_transformation_barta_brianne%2F)
+[HTML5 Outline](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.briannebarta.com%2Fproject_final2_barta_brianne%2Findex.html)
 
 # Resources
 I used a lot of resources to help me with this project, however, many of them demonstarted media queries with max-widths, which I know we were advised not to use. I tried to get by using min-widths only, but I had some difficulty wrapping my head around everything. I think responsive design is something that I'll get better at with time. 
