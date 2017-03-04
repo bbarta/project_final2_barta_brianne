@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -34,7 +36,6 @@ body {
 
 
 
-/*header */
 header {
     background: url('../img/header1.jpg');
     display: block;
@@ -70,6 +71,10 @@ header {
 }
 
 
+header h1 {
+    visibility: hidden;
+}
+
 header h4 {
     color: red;
     margin: auto;
@@ -81,7 +86,6 @@ header h4 {
 }
 
 main {
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -92,6 +96,9 @@ main h1 {
 
 }
 
+.hide {
+    visibility: hidden;
+}
 
 main h2 {
     text-align: center;
@@ -126,7 +133,7 @@ main p {
 }
 
 
-#colors h1 {
+#colors h2 {
     color: white;
 }
 
